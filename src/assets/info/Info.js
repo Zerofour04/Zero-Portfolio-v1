@@ -38,22 +38,12 @@ export const info = {
   ],
   socials: [
     {
-      link: 'https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=',
-      icon: 'fa fa-discord',
-      label: 'discord',
-    },
-    {
-      link: 'https://github.com/Andy8647',
+      link: 'https://github.com/Zerofour04',
       icon: 'fa fa-github',
       label: 'github',
     },
     {
-      link: 'https://www.linkedin.com/in/gancheng-luo-andy/',
-      icon: 'fa fa-linkedin',
-      label: 'linkedin',
-    },
-    {
-      link: 'https://twitter.com/Andy8647L',
+      link: 'https://twitter.com/Zerofour_04_',
       icon: 'fa fa-twitter',
       label: 'twitter',
     },
@@ -114,32 +104,8 @@ export const info = {
   },
   hobbies: [
     {
-      label: 'Photography',
-      emoji: '📷',
-    },
-    {
-      label: 'Video Games',
+      label: 'Cooming soon',
       emoji: '🎮',
-    },
-    {
-      label: 'Guitar',
-      emoji: '🎸',
-    },
-    {
-      label: 'Anime',
-      emoji: '🎞',
-    },
-    {
-      label: 'Cooking',
-      emoji: '🍳',
-    },
-    {
-      label: 'Traveling',
-      emoji: '✈️',
-    },
-    {
-      label: 'Fishing',
-      emoji: '🎣',
     },
     // Same as above, change the emojis to match / relate to your hobbies or interests.
     // You can also remove the emojis if you'd like, I just think they look cute :P

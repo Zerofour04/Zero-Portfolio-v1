@@ -100,7 +100,8 @@ export default function About() {
     <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
       <Terminal text={aboutMeText()} />
       <Terminal text={skillsText()} />
-      <Terminal text={miscText()} />
+      {/* <Terminal text={miscText()} /> */}
     </Box>
+
   );
 }

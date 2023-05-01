@@ -3,6 +3,14 @@ import Style from './About.module.scss';
 import Terminal from './Terminal';
 import { Box } from '@mui/material';
 import { info } from '../../assets/info/Info';
+import avatar from './avaterBen.png';
+import avatarBusiness from './businesspicture.png';
+
+import IMG1 from './images/IMG_1.JPG'
+import IMG2 from './images/IMG_2.jpeg'
+import IMG3 from './images/IMG_3.PNG'
+import IMG4 from './images/IMG_4.jpeg'
+
 
 export default function About() {
   const firstName = info.firstName.toLowerCase();
@@ -17,51 +25,16 @@ export default function About() {
           </span>{' '}
           cat about{firstName}{' '}
         </p>
+        <img src={avatar} width="50%"></img>
+        <img src={avatarBusiness} width="50%"></img>
+
         <p>
           <span style={{ color: info.baseColor }}>
             about{firstName} <span className={Style.green}>(main)</span> ${' '}
           </span>
           {info.bio}
-        </p>
-      </>
-    );
-  }
 
-  const skillsSection = (skill) => {
-    const keyName = Object.keys(skill)[0];
-    const values = skill[keyName];
-
-    return (
-      <div key={keyName}>
-        <p style={{ color: info.baseColor }}> {keyName}</p>
-        <ul className={Style.skills}>
-          {values.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  };
-
-  function skillsText() {
-    return (
-      <>
-        <p>
-          <span style={{ color: info.baseColor }}>
-            {firstName}
-            {info.lastName.toLowerCase()} $
-          </span>{' '}
-          cd skills
         </p>
-        <p>
-          <span style={{ color: info.baseColor }}>
-            skills <span className={Style.green}>(main)</span> $
-          </span>{' '}
-          ls
-        </p>
-        {Object.keys(info.skills).map((key) => {
-          return skillsSection({ [key]: info.skills[key] });
-        })}
       </>
     );
   }
@@ -96,12 +69,38 @@ export default function About() {
     );
   }
 
+  function friendsText() {
+    return (
+      <>
+        <p>
+          <span style={{ color: info.baseColor }}>
+            {firstName}
+            {info.lastName.toLowerCase()} $
+          </span>{' '}
+          cd friends
+        </p>
+
+        <p>
+          <span style={{ color: info.baseColor }}>
+            Freunde <span className={Style.green}>(main)</span> $
+          </span>{' '}
+          {info.bioFriends}
+          <img src={IMG1} width='50%'></img>
+          <img src={IMG2} width='50%'></img>
+          <img src={IMG3} width='50%'></img>
+          <img src={IMG4} width='50%'></img>
+
+        </p>
+      </>
+    );
+  }
+
   return (
     <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
       <Terminal text={aboutMeText()} />
-      <Terminal text={skillsText()} />
-      {/* <Terminal text={miscText()} /> */}
-    </Box>
+      <Terminal text={miscText()} />
+      <Terminal text={friendsText()} />
 
+    </Box>
   );
 }

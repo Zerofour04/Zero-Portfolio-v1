@@ -62,6 +62,7 @@ export default function Home({ darkMode }) {
             <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} />
           ))}
         </Box>
+        
         <Box
           display={'flex'}
           gap={'1.5rem'}
@@ -73,6 +74,6 @@ export default function Home({ darkMode }) {
           ))}
         </Box>
       </Box>
-    </Box>
+    </Box> 
   );
 }

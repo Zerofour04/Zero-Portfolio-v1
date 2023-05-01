@@ -27,6 +27,11 @@ const links = [
     to: '/portfolio',
     active: 'portfolio',
   },
+  {
+    name: 'Blog',
+    to: '/blog',
+    onClick: 'AppBlog',
+  },
 ];
 
 export default function Navbar({ darkMode, handleClick }) {

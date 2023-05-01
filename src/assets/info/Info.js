@@ -17,24 +17,24 @@ export const info = {
     },
     {
       emoji: '💻',
-      text: 'Front End Developer/Webdeveloper',
+      text: 'Front-End- und Web-Entwickler mit Leidenschaft',
     },
     {
-      emoji: '🎲',
-      text: 'Coding & Mapping with FiveM',
+      emoji: '🧑‍💻',
+      text: 'Projektleiter in diversen Gaming-Projekten',
+    },
+    {
+      emoji: '👥',
+      text: 'Beteiligt an der Entwicklung von Unternehmenssoftware',
     },
     {
       emoji: '🎮',
-      text: 'Gamer',
-    },
-    {
-      emoji: '🤓',
-      text: 'Schüler',
+      text: 'Leidenschaftlicher Gamer & Schüler',
     },
     {
       emoji: '📧',
       text: 'ho.ben2004@gmail.com',
-    },
+    }
   ],
   socials: [
     {
@@ -49,9 +49,12 @@ export const info = {
     },
   ],
   bio: [
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=1AF727&center=true&vCenter=true&width=435&lines=%3Eprint+%3CHello+World%2F%3E+from+Ben"></img>,
-    "Hey, ich bin Ben Ho, seit einigen Jahren entwickele ich leidenschaftlich Projekte und verbessere andere Repositories.",
+    "Hallo, mein Name ist Ben Ho und ich bin seit einigen Jahren leidenschaftlicher Entwickler. Während dieser Zeit habe ich zahlreiche Projekte entwickelt und mich auch auf die Verbesserung bestehender Repositories konzentriert. Um meine Arbeit mit anderen zu teilen, veröffentliche ich meine Codes auf GitHub. Ich habe auch die Möglichkeit gehabt, an verschiedenen IT-Projekten teilzunehmen, die meine Fähigkeiten und Kenntnisse verbessert haben und mich auf meinem Karriereweg vorangetrieben haben.",
     
+  ],
+
+  bioFriends: [
+    "Mit meinen Freunden teile ich nicht nur viele unvergessliche Erlebnisse, sondern auch das Leben selbst. Hier sind einige Impressionen von mir und meinen Freunden:"
   ],
 
   skills: {
@@ -104,9 +107,26 @@ export const info = {
   },
   hobbies: [
     {
-      label: 'Cooming soon',
+      label: 'Car-Spotting',
+      emoji: '🏎️',
+    },
+    {
+      label: 'Programmieren lernen',
+      emoji: '🧑‍💻',
+    },
+    {
+      label: 'Sportliche Aktivitäten ausüben',
+      emoji: '⚽',
+    },
+    {
+      label: 'Bücher über Informatik und Naturwissenschaft lesen',
+      emoji: '📖',
+    },
+    {
+      label: 'Gaming',
       emoji: '🎮',
     },
+
     // Same as above, change the emojis to match / relate to your hobbies or interests.
     // You can also remove the emojis if you'd like, I just think they look cute :P
   ],
@@ -114,10 +134,12 @@ export const info = {
     // This is where your portfolio projects will be detailed
     //   for the null ones, the button will not show up
     {
-      title: 'Coming soon',
+      title: 'Projekte erscheinen hier: COOMING SOON',
       live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: '', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: '',
+      source: 'https://zerofour04.github.io/Greenfoot-game/', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://i.ibb.co/6BsWs6f/01.jpg',
+      test: 'test'
     },
+
   ],
 };

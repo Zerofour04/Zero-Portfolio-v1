@@ -28,9 +28,8 @@ const links = [
     active: 'portfolio',
   },
   {
-    name: 'Blog',
-    to: '/blog',
-    onClick: 'AppBlog',
+    name: 'Info: Abi-Fahrt',
+    to: 'https://feed.zerofour04.me',
   },
 ];
 

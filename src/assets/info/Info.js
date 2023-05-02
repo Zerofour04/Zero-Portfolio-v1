@@ -57,6 +57,14 @@ export const info = {
     "Mit meinen Freunden teile ich nicht nur viele unvergessliche Erlebnisse, sondern auch das Leben selbst. Hier sind einige Impressionen von mir und meinen Freunden:"
   ],
 
+  bioPhotography: [
+    "Neben dem Fotografieren von Landschaften und besonderen Ereignissen habe ich eine Leidenschaft für Autos entwickelt, insbesondere für BMW-Fahrzeuge. Ich suche ständig nach schicken Modellen, um die besten Schnappschüsse zu machen. Ich filme und fotografiere sie in Aktion und bearbeite dann die Aufnahmen. Schließlich teile ich meine Arbeit auf Social-Media-Plattformen, um meine Begeisterung für BMW und Autos im Allgemeinen mit anderen zu teilen."
+  ],
+
+  bioProjects: [
+    "In der Vergangenheit hatte ich die Möglichkeit, an zahlreichen Projekten als Leiter oder Mitentwickler mitzuwirken. Einige dieser Projekte waren sogar für Unternehmen bestimmt. Durch das Veröffentlichen des Codes konnte ich vielen Menschen helfen und meine Erfahrungen mit anderen teilen:"
+  ],
+
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
@@ -134,11 +142,25 @@ export const info = {
     // This is where your portfolio projects will be detailed
     //   for the null ones, the button will not show up
     {
-      title: 'Projekte erscheinen hier: COOMING SOON',
+      title: 'Mitarbeitermanagement für eine Firma',
       live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://zerofour04.github.io/Greenfoot-game/', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.ibb.co/6BsWs6f/01.jpg',
-      test: 'test'
+      info: 'Mit diesem Mananagementsystem konnte man Leute in den Urlaub schicken, sperren, unsichtbar und als Mitarbeiter setzten, dabei erfolgte die Abfrage über Azure mit MSAL.',
+      source: 'https://github.com/Zerofour04/React-TS-Employee-Management', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://user-images.githubusercontent.com/60815764/163386840-d28988b6-b940-40d5-b895-39da54b34e18.png',
+    },
+    {
+      title: 'Computerspiel mit Java programmiert',
+      live: 'https://zerofour04.github.io/Greenfoot-game/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      info: '',
+      source: 'https://github.com/Zerofour04/Greenfoot-game', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://media.discordapp.net/attachments/517028743357792258/1103081864782172201/Title.png',
+    },
+    {
+      title: 'Weitere Projekte werden noch hinzugefügt, da diese Website derzeit noch in Bearbeitung ist.',
+      live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      info: null,
+      source: null, // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://media.discordapp.net/attachments/517028743357792258/1103082533446483968/04Bild.png',
     },
 
   ],

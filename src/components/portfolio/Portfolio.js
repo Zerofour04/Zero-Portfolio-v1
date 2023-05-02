@@ -46,6 +46,20 @@ export default function Portfolio() {
         {Object.keys(info.skills).map((key) => {
           return skillsSection({ [key]: info.skills[key] });
         })}
+
+        <p>
+          <span style={{ color: info.baseColor }}>
+            {firstName}
+            {info.lastName.toLowerCase()} $
+          </span>{' '}
+          cd successfulProjects
+        </p>
+        <p>
+          <span style={{ color: info.baseColor }}>
+            Projekte <span className={Style.green}>(main)</span> $
+          </span>{' '}
+          {info.bioProjects}
+        </p>
       </>
     );
   }
@@ -62,9 +76,9 @@ export default function Portfolio() {
               <PortfolioBlock
                 image={project.image}
                 live={project.live}
+                info={project.info}
                 source={project.source}
                 title={project.title}
-                test={project.text}
               />
             </Grid>
           ))}

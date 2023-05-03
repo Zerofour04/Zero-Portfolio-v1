@@ -5,17 +5,12 @@ import { Box } from '@mui/material';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-
 import { info } from '../../assets/info/Info';
-import avatar from './avaterBen.png';
-import avatarBusiness from './businesspicture.png';
-
-
+import avatar from '../../assets/img/avaterBen.png';
+import avatarBusiness from '../../assets/img/businesspicture.png';
 
 export default function About() {
   const firstName = info.firstName.toLowerCase();
-
-
 
   function aboutMeText() {
     return (

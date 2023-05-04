@@ -7,7 +7,7 @@ import Portfolio from './portfolio/Portfolio';
 import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ParticlesBg from './particles/ParticlesBg';
-import { FaReact  } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
 import { SiTypescript } from "react-icons/si";
 
 export default function BaseLayout() {
@@ -70,16 +70,18 @@ export default function BaseLayout() {
             sx={{ opacity: 0.7 }}
             width={'100%'}
           >
-            <h2>Build with <FaReact/> <SiTypescript/> </h2>
-            <p>&copy; 2023</p>
+            <h2>Build with <FaReact /> <SiTypescript /> </h2>
+            <p>&copy; 2023 Ben Ho</p>
+
             <p>
-              template created with &hearts; by{' '}
+              Credits: &hearts; by{' '}
               <a href={'https://paytonpierce.dev'}>Payton Pierce</a>
-              
             </p>
             <p>
-              enhence implemented with &hearts; by <a href={'https://andy8647.com'}>Andy Luo </a>,
-              redesigned with &hearts; by <a href={'https://ingrid0126.com'}>Ingrid Fei</a>
+              <a href={'https://andy8647.com'}>Andy Luo</a>
+            </p>
+            <p>
+            <a href={'https://ingrid0126.com'}>Ingrid Fei</a>
             </p>
           </Box>
         </Grid>

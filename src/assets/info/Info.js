@@ -65,6 +65,10 @@ export const info = {
     "In der Vergangenheit hatte ich die Möglichkeit, an zahlreichen Projekten als Leiter oder Mitentwickler mitzuwirken. Einige dieser Projekte waren sogar für Unternehmen bestimmt. Durch das Veröffentlichen des Codes konnte ich vielen Menschen helfen und meine Erfahrungen mit anderen teilen:"
   ],
 
+  bioCommunity: [
+    "Seit ich damit begonnen habe, meinen Code zu veröffentlichen, habe ich eine Community aufgebaut, die anderen bei ihren Projekten hilft. Inzwischen hat die Community bereits über 3000 Mitglieder gewonnen, was mir auch in einigen Spielen, insbesondere in FiveM, einen gewissen Ruf eingebracht hat."
+  ],
+
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
@@ -149,14 +153,42 @@ export const info = {
       image: 'https://user-images.githubusercontent.com/60815764/163386840-d28988b6-b940-40d5-b895-39da54b34e18.png',
     },
     {
+      title: 'Einfache ToDoList (First project)',
+      live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      info: 'Ich habe eine ToDo-Liste mit React erstellt und sie mit einem Backend integriert.',
+      source: 'https://github.com/Zerofour04/React-JS-ToDoList', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://user-images.githubusercontent.com/60815764/149533575-6b37141e-4ec4-4910-9cff-a8fb75664794.png',
+    },
+    {
+      title: 'Abi-Fahrt Website für die Klasse',
+      info: 'Ein Blog über unsere Klassenfahrt nach dem Abitur, der alle wichtigen Informationen für die Klasse zusammenfasst. Das Projekt hatte vor allem einen Lernzweck.', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      site: 'https://feed.zerofour04.me/',
+      source: 'https://github.com/Zerofour04/simple-blog', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://media.discordapp.net/attachments/517028743357792258/1103637740601479178/2023-05-04.png',
+    },
+    {
+      title: 'Microsoft Authentication Library Template',
+      live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      info: 'Ich habe eine React-Vorlage für MSAL (Microsoft Authentication Library) entwickelt.',
+      source: 'https://github.com/Zerofour04/React-TS-MSAL', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://www.vifani.com/msal-one-library-to-authenticate-them-all/what-is-msal.jpg',
+    },
+    {
+      title: 'Spotify Connect',
+      live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      info: 'Eine Beispiel-App auf React-Basis, die einen neuen Player in Spotify Connect erstellt, um Musik über den Browser mit dem Spotify Web Playback SDK abzuspielen.',
+      source: 'https://github.com/Zerofour04/spotify-web-playback-sdk-example', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://venturebeat.com/wp-content/uploads/2018/11/IMG_20181107_043334.jpg?fit=1256%2C719&strip=all',
+    },
+    {
       title: 'Computerspiel mit Java programmiert',
       live: 'https://zerofour04.github.io/Greenfoot-game/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      info: '',
+      site: 'https://www.greenfoot.org/scenarios/31279',
       source: 'https://github.com/Zerofour04/Greenfoot-game', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://media.discordapp.net/attachments/517028743357792258/1103081864782172201/Title.png',
     },
     {
-      title: 'Weitere Projekte werden noch hinzugefügt, da diese Website derzeit noch in Bearbeitung ist.',
+      title: 'Weitere meiner Spielprojekte sind auf GitHub zu finden.',
       live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       info: null,
       source: null, // this should be a link to the **repository** of the project, where the code is hosted.

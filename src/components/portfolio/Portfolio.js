@@ -10,7 +10,6 @@ import { info } from '../../assets/info/Info';
 export default function Portfolio() {
   const firstName = info.firstName.toLowerCase();
 
-
   const skillsSection = (skill) => {
     const keyName = Object.keys(skill)[0];
     const values = skill[keyName];
@@ -26,6 +25,29 @@ export default function Portfolio() {
       </div>
     );
   };
+
+  function projectText() {
+    return (
+      <>
+        <p>
+          <span style={{ color: info.baseColor }}>
+            {firstName}
+            {info.lastName.toLowerCase()} $
+          </span>{' '}
+          cat projects from {firstName}{' '}
+        </p>
+
+        <p>
+          <span style={{ color: info.baseColor }}>
+            Community/Prestige <span className={Style.green}>(main)</span> ${' '}
+          </span>
+          {info.bioCommunity}
+
+        </p>
+        <iframe src="https://discord.com/widget?id=705701139936706601&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+      </>
+    );
+  }
 
   function skillsText() {
     return (
@@ -68,6 +90,7 @@ export default function Portfolio() {
     <>
       <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
         <Terminal text={skillsText()} />
+        <Terminal text={projectText()} />
       </Box>
       <Box>
         <Grid container display={'flex'} justifyContent={'center'}>
@@ -79,6 +102,7 @@ export default function Portfolio() {
                 info={project.info}
                 source={project.source}
                 title={project.title}
+                site={project.site}
               />
             </Grid>
           ))}

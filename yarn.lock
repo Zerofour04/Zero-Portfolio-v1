@@ -7174,6 +7174,11 @@
   dependencies:
     "tmpl" "1.0.5"
 
+"md-block@^0.0.1":
+  "integrity" "sha512-uXAp27jR+ztgoWyQfaktpWYNbknlpzmeYfIkeYGwGjkZDXTcWmom9eVgUsjEn4/I9evLdfydWB0PIzHq9VjUwg=="
+  "resolved" "https://registry.npmjs.org/md-block/-/md-block-0.0.1.tgz"
+  "version" "0.0.1"
+
 "mdn-data@2.0.14":
   "integrity" "sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow=="
   "resolved" "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.14.tgz"

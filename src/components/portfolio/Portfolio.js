@@ -7,6 +7,8 @@ import Terminal from '../about/Terminal';
 import { Box, Grid } from '@mui/material';
 import { info } from '../../assets/info/Info';
 
+import { MarkdownBlock, MarkdownSpan, MarkdownElement } from "md-block";
+
 export default function Portfolio() {
   const firstName = info.firstName.toLowerCase();
 
@@ -45,6 +47,7 @@ export default function Portfolio() {
 
         </p>
         <iframe src="https://discord.com/widget?id=705701139936706601&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+       
       </>
     );
   }
@@ -92,6 +95,7 @@ export default function Portfolio() {
         <Terminal text={skillsText()} />
         <Terminal text={projectText()} />
       </Box>
+
       <Box>
         <Grid container display={'flex'} justifyContent={'center'}>
           {info.portfolio.map((project, index) => (
@@ -108,6 +112,7 @@ export default function Portfolio() {
           ))}
         </Grid>
       </Box>
+
     </>
   );
 }

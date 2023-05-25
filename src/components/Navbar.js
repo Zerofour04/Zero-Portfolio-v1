@@ -29,7 +29,7 @@ const links = [
   },
   {
     name: 'Info: Abi-Fahrt',
-    to: 'https://feed.zerofour04.me',
+    to: 'https://abireise.zerofour04.me',
   },
 ];
 
